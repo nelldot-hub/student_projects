@@ -1,63 +1,69 @@
-# Student Projects
+# Student Projects 🚀
 
-Welcome to the Student Projects repository! This repository contains a collection of programming projects created as part of my learning journey. The projects are organized by language and demonstrate various programming concepts and problem-solving skills.
+Welcome to my student projects repository! This is a collection of programs and systems I've built during my first-year Computer Science journey. The projects are organized by language and domain, demonstrating my progress and learning.
 
-## Table of Contents
-- [Folder Structure](#folder-structure)
-- [Projects](#projects)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## 📁 Folder Structure
 
-## Folder Structure
-
-```
+```text
 student_projects/
-├── cpp_projects/
-│   ├── rockpaperscissors.cpp
-│   └── simpleCalculator.cpp
-├── java_projects/
-│   └── signIn.java
-└── README.md
+├── cpp_projects/      # C++ programs including console games
+├── finals_system/     # Java POS final project system
+└── java_projects/     # Introductory Java programs
 ```
 
-## Projects
+## 🛠️ Projects Overview
 
-### C++ Projects (`cpp_projects/`)
+### ☕ Java Projects (`java_projects/`)
+- **SignIn System:** A simple Java sign-in simulation program exploring a user authentication loop, input handling, and basic control flow.
 
-#### rockpaperscissors.cpp
-A simple command-line Rock, Paper, Scissors game. The user plays against the computer, which makes random choices. Demonstrates use of random number generation, user input, and basic control flow in C++.
+### 👾 C++ Projects (`cpp_projects/`)
+- **Rock Paper Scissors:** A classic console-based game where the user plays against the computer.
+- **Simple Calculator:** A basic command-line calculator for standard arithmetic operations.
 
-#### simpleCalculator.cpp
-A basic calculator program (file currently empty or under development).
+### 🎓 Finals System (`finals_system/`)
+- **POS System:** My comprehensive final project! It's a full Java-based Point of Sale system featuring GUI components (`POSMainFrame`), fuel products, order processing, and receipt generation.
 
-### Java Projects (`java_projects/`)
+## 💻 Technologies Used
+- **Languages:** Java, C++
+- **Tools/Compilers:** `javac` / `java` (for Java), `clang++` (for macOS C++ compilation)
 
-#### signIn.java
-A simple sign-in simulation. Prompts the user for a password and allows multiple attempts until the correct password is entered. Demonstrates user input handling and control flow in Java.
+## 🚀 How to Compile and Run (Mac)
+  
+### Java Projects
+Navigate to the directory containing the `.java` files, then compile and run using the macOS terminal.
 
-## Usage
+For single files (e.g., in `java_projects/`):
+```bash
+# Compile
+javac signIn.java
+
+# Run
+java signIn
+```
+
+For the finals system (`finals_system/`), compile all files at once and run the main class:
+```bash
+# Compile all Java files
+cd finals_system
+javac *.java
+
+# Run the main program
+java Main
+```
 
 ### C++ Projects
-1. Navigate to the `cpp_projects` directory.
-2. Compile the desired `.cpp` file using a C++ compiler (e.g., g++):
-	```sh
-	g++ rockpaperscissors.cpp -o rockpaperscissors
-	./rockpaperscissors
-	```
+Navigate to the `cpp_projects/` folder and use `clang++` with the `-lc++` flag to compile:
+```bash
+cd cpp_projects
 
-### Java Projects
-1. Navigate to the `java_projects` directory.
-2. Compile the Java file:
-	```sh
-	javac signIn.java
-	java signIn
-	```
+# Compile using clang++ with the C++ standard library flag
+clang++ -lc++ rockpaperscissors.cpp -o rockpaperscissors
 
-## Contributing
+# Run the compiled executable
+./rockpaperscissors
+```
 
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This repository is for educational purposes. If you wish to use the code for other purposes, please contact the repository owner.
+## 👨‍💻 Author
+**Nell**
+*First-year CS Student*
+📝 GitHub: [@nelldot-hub](https://github.com/nelldot-hub)
