@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/Nell/VSCode/student_projects/cpp_projects/rockpaperscissors'
+relocations:     []
+...
